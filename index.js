@@ -1,10 +1,10 @@
 const express = require('express');
-const fetch = require('node-fetch');
+const fetch = import('node-fetch');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const API_KEY = 'YOUR_GOOGLE_API_KEY';
-const PLACE_ID = 'YOUR_PLACE_ID';
+const API_KEY = 'AIzaSyD8QfyVeKrUxvofs48OFgyu2pEHjfte_S8';
+const PLACE_ID = 'ChIJFZ_1ltDhTocRoBbX0ErSidY';
 
 app.get('/reviews', async (req, res) => {
     try {
