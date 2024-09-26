@@ -20,6 +20,6 @@
   "homepage": "https://github.com/damonponder/honestyelectricalreviews#readme",
   "dependencies": {
     "express": "^4.21.0",
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^3.3.2"
   }
 }
